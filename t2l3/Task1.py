@@ -1,0 +1,5 @@
+print('Enter your pet"s breed, age and nickname')
+x = input('Enter breed: ')
+y = input('Enter age: ')
+z = input('Enter name: ')
+print ('This is', x, 'named', z, '.', 'Age of ', y)

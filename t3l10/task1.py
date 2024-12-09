@@ -6,8 +6,6 @@ pets = {
     # }
 }
 
-
-
 pname = input("enter your pet's name: ")
 pets[pname] = {
     'breed': input("enter breed: "),

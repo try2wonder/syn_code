@@ -1,0 +1,24 @@
+TASK 1
+n = int(input("Enter the amount of numbers: "))
+l = set(map(int, input().split()))
+print(len(l))
+
+
+TASK 2
+c1 = set(map(int, input("c1: ").split()))
+c2 = set(map(int, input("c2: ").split()))
+print(c1.intersection(c2))
+
+TASK 3
+
+c = list(map(int, input().split()))
+c1 = set()
+for i in c:
+    if i in c1:
+        print(f"{i} YES")
+    else:
+        print(f"{i} NO")
+        c1.add(i)
+
+
+#  1 2 3 1 4 5 4 8 9

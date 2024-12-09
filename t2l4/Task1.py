@@ -1,7 +1,5 @@
-#S = √(р (р — а)(р — b)(p — c)) 
-a,b,c = map(float, input("Enter 3 edges: ").split())
-per = a + b + c
-p = per/2
-s = (p * (p - a) * (p - b) * (p - c))**0.5
+a,b = map(float, input("Enter 2 edges: ").split())
+per = a + b 
+s = a * b
 print("perim = ", per, "square = ", s)
 
